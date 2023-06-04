@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+}
+body {
+    background-image: url("images/download.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head{
+    text-align: center;
+    font-size: 65px;
+    padding: 10px;
+}
+.citiesnames{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: none;
+}
+button.names {
+    background-color: none;
+    border: 1px solid #0e0c0c;
+    padding: 70px;
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+    /* add any other button styles as needed */
+}
+.names:nth-child(1) {
+    background-image: url("images/melbourne.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
+
+.names:nth-child(2) {
+    background-image: url("images/ballarat.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
+
+.names:nth-child(3) {
+    background-image: url("images/mildura.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
+
+.names:nth-child(4) {
+    background-image: url("images/geelong.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
+
+.names:nth-child(5) {
+    background-image: url("images/bendigo.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
+
+.names:nth-child(6) {
+    background-image: url("images/warrnambool.jpg");
+    background-size: 100% 100%;
+    /* add any other background properties as needed */
+}
